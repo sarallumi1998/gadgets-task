@@ -1,33 +1,29 @@
 footer {
-    padding: 20px;
-    background-color:black;
+    background-color: black;
     color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer img {
+    vertical-align: middle;
+}
+
+footer h4 {
+    text-align: left;
+    margin-top: 20px;
+}
+
+footer p {
+    text-align: left;
 }
 
 .footer-columns {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer-column {
-    flex: 1;
-    margin: 0 10px;
-}
-
-.footer-column h4 {
-    margin-bottom: 10px;
-}
-
-.footer-column p {
-    margin: 5px 0;
-}
-
-.footer-column input[type="email"] {
-    width: calc(100% - 80px);
-    padding: 5px;
-}
-
-.footer-column input[type="submit"] {
-    padding: 5px;
-    width: 70px;
+    flex: 0 0 48%; 
 }
