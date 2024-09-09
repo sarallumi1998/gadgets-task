@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://img.icons8.com/fluency/48/macbook.png" alt="macbook"/>
+    <title>Gad-Shop</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .card {
+            margin-bottom: 20px;
+            transition: transform 0.1s ease-in-out;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card-img-top {
+            height: 200px; /* Set a fixed height */
+            object-fit: cover; /* Ensure the image covers the area */
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .rating {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .rating i {
+            color: gold; /* Set the color of stars to gold */
+            margin-right: 2px; /* Add some space between stars */
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 10px; /* Adjust the gap between buttons */
+        }
+
+        .btn-spacing {
+            margin-right: 10px; /* Add space to the right of the Add to Cart button */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg" style="background-color: purple;">
+        <img src="https://img.icons8.com/fluency/48/macbook.png"/> 
+        <a class="navbar-brand" href="index.html" style="color: white; margin-left: 10px;">Gad-Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" style="color: white;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html" style="color: white;">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gadgets.html" style="color: white;">Types of Gadgets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" style="color: white;">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signuplogin.html" style="color: white;">Sign Up/Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+   
+    <section class="container py-5">
+        <h2 class="text-center mb-4">Types of Gadgets</h2>
+        <div class="row">
+           
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/8000624/pexels-photo-8000624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Gadget 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Headphone</h5>
+                        <p class="card-text">Noise cancelling headphones can help keep you focused in a noisy office and block out engine noise on planes, trains, or buses.</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-alt"></i>
+                        </div>
+                        <p>₹ 5,000</p>
+                        <div class="btn-group">
+                            <button class="btn btn-primary">Add to Cart</button>
+                            <button class="btn btn-success">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/1205022/pexels-photo-1205022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Gadget 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Camera</h5>
+                        <p class="card-text">A camera is an instrument used to take, or record, pictures of people and objects. Some cameras record single, still pictures called photographs. </p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>₹ 1,00,000</p>
+                        <div class="btn-group">
+                            <button class="btn btn-primary">Add to Cart</button>
+                            <button class="btn btn-success">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Gadget 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Tablet</h5>
+                        <p class="card-text">The tablet form factor is typically smaller than a notebook computer, but larger than a smartphone.They're great for email, web browsing, and travel.</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-alt"></i>
+                           </div>
+                           <p>₹ 1,00,000</p>
+                        <div class="btn-group">
+                            <button class="btn btn-primary">Add to Cart</button>
+                            <button class="btn btn-success">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/2651794/pexels-photo-2651794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Gadget 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Speaker</h5>
+                        <p class="card-text">A speaker is a device that converts electrical signals from a device like a computer, smartphone, or television into sound waves that people can hear.</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                          </div>
+                          <p>₹ 50,000</p>
+                        <div class="btn-group">
+                            <button class="btn btn-primary">Add to Cart</button>
+                            <button class="btn btn-success">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/20123833/pexels-photo-20123833/free-photo-of-fingers-putting-pen-drive-into-laptop.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Gadget 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Pendrive</h5>
+                        <p class="card-text">A pendrive, also known as a USB flash drive, is a small, portable device that stores data and plugs into a computer's USB port.  usually weigh less than 30 grams.</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-alt"></i>
+                           </div>
+                           <p>₹ 1,000</p>
+                        <div class="btn-group">
+                            <button class="btn btn-primary">Add to Cart</button>
+                            <button class="btn btn-success">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/336232/pexels-photo-336232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="Gadget 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Drone</h5>
+                        <p class="card-text">A drone is a flying machine that can fly without a pilot on board. Drones can be remotely controlled or fly autonomously using software-controlled flight plans.</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-alt"></i>
+                           </div>
+                           <p>₹ 1,00,000</p>
+                        <div class="btn-group">
+                            <button class="btn btn-primary">Add to Cart</button>
+                            <button class="btn btn-success">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-columns">
+            <div class="footer-column">
+                <h4>COMPANY</h4>
+                <p>About us</p>
+                <p>Contact us</p>
+                <p>Reservation</p>
+                <p>Privacy Policy</p>
+                <p>Terms & Conditions</p>
+            </div>
+            <div class="footer-column">
+                <h4>OPENING HOURS</h4>
+                <p>Monday-Saturday</p>
+                <p>10AM-10PM</p>
+                <p>Sunday</p>
+                <p>10AM-2PM</p>
+            </div>
+            <div class="footer-column">
+              <h4>Newsletter</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p> Phasellus malesuada mi vel viverra pretium.</p>
+              <input type="email" placeholder="type your email">
+        <input type="submit" name="submit">
+        
+          </div>
+        </div>
+        <p style="text-align: center; margin-top: 20px;">Copyright <img width="20" height="20" src="https://img.icons8.com/emoji/48/copyright-emoji.png" alt="copyright-emoji"/>Gad-Shop 2030</p>
+    </footer>
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
